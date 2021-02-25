@@ -1,0 +1,26 @@
+﻿//
+// © 2016-2021 miloush.net. All rights reserved.
+//
+
+namespace UAM.Optics.ColorScience
+{
+    public static class RGBPrimaries1976uv
+    {
+        public static readonly RGBPrimaries<Chromaticity1976uv> AdobeRGB1998atD65    = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.AdobeRGB1998atD65.Red),    ConvertColor.Touv(RGBPrimaries1931xyY.AdobeRGB1998atD65.Green),    ConvertColor.Touv(RGBPrimaries1931xyY.AdobeRGB1998atD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> AppleRGBatD65        = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.AppleRGBatD65.Red),        ConvertColor.Touv(RGBPrimaries1931xyY.AppleRGBatD65.Green),        ConvertColor.Touv(RGBPrimaries1931xyY.AppleRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> BestRGBatD65         = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.BestRGBatD65.Red),         ConvertColor.Touv(RGBPrimaries1931xyY.BestRGBatD65.Green),         ConvertColor.Touv(RGBPrimaries1931xyY.BestRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> BetaRGBatD65         = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.BetaRGBatD65.Red),         ConvertColor.Touv(RGBPrimaries1931xyY.BetaRGBatD65.Green),         ConvertColor.Touv(RGBPrimaries1931xyY.BetaRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> BruceRGBatD65        = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.BruceRGBatD65.Red),        ConvertColor.Touv(RGBPrimaries1931xyY.BruceRGBatD65.Green),        ConvertColor.Touv(RGBPrimaries1931xyY.BruceRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> CIERGBatD65          = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.CIERGBatD65.Red),          ConvertColor.Touv(RGBPrimaries1931xyY.CIERGBatD65.Green),          ConvertColor.Touv(RGBPrimaries1931xyY.CIERGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> ColorMatchRGBatD65   = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.ColorMatchRGBatD65.Red),   ConvertColor.Touv(RGBPrimaries1931xyY.ColorMatchRGBatD65.Green),   ConvertColor.Touv(RGBPrimaries1931xyY.ColorMatchRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> DonRGB4atD65         = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.DonRGB4atD65.Red),         ConvertColor.Touv(RGBPrimaries1931xyY.DonRGB4atD65.Green),         ConvertColor.Touv(RGBPrimaries1931xyY.DonRGB4atD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> ECIRGBv2RGBatD65     = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.ECIRGBv2RGBatD65.Red),     ConvertColor.Touv(RGBPrimaries1931xyY.ECIRGBv2RGBatD65.Green),     ConvertColor.Touv(RGBPrimaries1931xyY.ECIRGBv2RGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> EktaSpacePS5RGBatD65 = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.EktaSpacePS5RGBatD65.Red), ConvertColor.Touv(RGBPrimaries1931xyY.EktaSpacePS5RGBatD65.Green), ConvertColor.Touv(RGBPrimaries1931xyY.EktaSpacePS5RGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> NtscRGBatD65         = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.NtscRGBatD65.Red),         ConvertColor.Touv(RGBPrimaries1931xyY.NtscRGBatD65.Green),         ConvertColor.Touv(RGBPrimaries1931xyY.NtscRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> PalSecamRGBatD65     = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.PalSecamRGBatD65.Red),     ConvertColor.Touv(RGBPrimaries1931xyY.PalSecamRGBatD65.Green),     ConvertColor.Touv(RGBPrimaries1931xyY.PalSecamRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> ProPhotoRGBatD65     = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.ProPhotoRGBatD65.Red),     ConvertColor.Touv(RGBPrimaries1931xyY.ProPhotoRGBatD65.Green),     ConvertColor.Touv(RGBPrimaries1931xyY.ProPhotoRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> SmpteCRGBatD65       = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.SmpteCRGBatD65.Red),       ConvertColor.Touv(RGBPrimaries1931xyY.SmpteCRGBatD65.Green),       ConvertColor.Touv(RGBPrimaries1931xyY.SmpteCRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> sRGBatD65            = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.sRGBatD65.Red),            ConvertColor.Touv(RGBPrimaries1931xyY.sRGBatD65.Green),            ConvertColor.Touv(RGBPrimaries1931xyY.sRGBatD65.Blue));
+        public static readonly RGBPrimaries<Chromaticity1976uv> WideGamutRGBatD65    = new RGBPrimaries<Chromaticity1976uv>(ConvertColor.Touv(RGBPrimaries1931xyY.WideGamutRGBatD65.Red),    ConvertColor.Touv(RGBPrimaries1931xyY.WideGamutRGBatD65.Green),    ConvertColor.Touv(RGBPrimaries1931xyY.WideGamutRGBatD65.Blue));
+    }
+}
