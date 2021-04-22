@@ -16,6 +16,14 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
   </PropertyGroup>
+  <PropertyGroup>
+    <Company>UAM Czech Republic, s.r.o.</Company>
+    <Authors>Jan Kučera</Authors>
+    <Copyright>© 2016-2021 miloush.net</Copyright>
+    <Description>.NET Framework library for colour science.</Description>
+    <RepositoryUrl>https://github.com/hurlbertvisionlab/UAM.Optics.ColorScience</RepositoryUrl>
+    <PackageId>UAM.Optics.ColorScience</PackageId>
+  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -77,6 +85,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Tasks.Pack">
+      <Version>5.9.1</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

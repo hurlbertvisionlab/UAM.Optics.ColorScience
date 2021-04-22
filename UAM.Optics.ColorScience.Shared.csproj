@@ -3,6 +3,13 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<BaseOutputPath>../bin</BaseOutputPath>
 		<BaseIntermediateOutputPath>../obj/$(TargetFramework)</BaseIntermediateOutputPath>
+
+		<Company>UAM Czech Republic, s.r.o.</Company>
+		<Authors>Jan Kučera</Authors>
+		<Copyright>© 2016-2021 miloush.net</Copyright>
+		<Description>.NET Standard library for colour science.</Description>
+		<RepositoryUrl>https://github.com/hurlbertvisionlab/UAM.Optics.ColorScience</RepositoryUrl>
+		<PackageId>UAM.Optics.ColorScience.Shared</PackageId>
 	</PropertyGroup>
 
 	<Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
