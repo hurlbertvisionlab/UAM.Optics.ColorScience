@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UAM.Optics.ColorScience", "UAM.Optics.ColorScience.csproj", "{6DAE582B-A266-43D1-9EFB-B9FA2D9FD95D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UAM.Optics.ColorScience.Core", "UAM.Optics.ColorScience.Core.csproj", "{935A3A5F-8A16-4755-8026-F57951D202CD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UAM.Optics.ColorScience.Shared", "UAM.Optics.ColorScience.Shared.csproj", "{3B8D3F6E-44A8-4D64-892B-CF6255749B26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UAM.Optics.ColorScience", "UAM.Optics.ColorScience.csproj", "{6BB59846-6FBB-42E0-9A02-9A7B335417D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +11,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6DAE582B-A266-43D1-9EFB-B9FA2D9FD95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DAE582B-A266-43D1-9EFB-B9FA2D9FD95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DAE582B-A266-43D1-9EFB-B9FA2D9FD95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DAE582B-A266-43D1-9EFB-B9FA2D9FD95D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{935A3A5F-8A16-4755-8026-F57951D202CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{935A3A5F-8A16-4755-8026-F57951D202CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{935A3A5F-8A16-4755-8026-F57951D202CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{935A3A5F-8A16-4755-8026-F57951D202CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B8D3F6E-44A8-4D64-892B-CF6255749B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B8D3F6E-44A8-4D64-892B-CF6255749B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B8D3F6E-44A8-4D64-892B-CF6255749B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B8D3F6E-44A8-4D64-892B-CF6255749B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB59846-6FBB-42E0-9A02-9A7B335417D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB59846-6FBB-42E0-9A02-9A7B335417D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB59846-6FBB-42E0-9A02-9A7B335417D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB59846-6FBB-42E0-9A02-9A7B335417D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5ACA7AE4-83E8-4D9D-B787-C0AE967BCF61}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.uam.im:8080/tfs/uam
+		SccProjectUniqueName0 = UAM.Optics.ColorScience.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = http://tfs.uam.im:8080/tfs/uam
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 	EndGlobalSection
 EndGlobal
